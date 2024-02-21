@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: "Open Sans";
+    color: #000F08;
+}
+
+nav {
+    background-color: #000F08;
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    padding: 20px;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 30px;
+    vertical-align: middle;
+    margin-right: 45px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.icono {
+    width: 35px;
+    fill: white;
+}
+
+header {
+    text-align: right;
+    background-image: url(../img/bg-hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 100px;
+    text-shadow: 0px 3px 6px #00000080;
+}
+
+header h1 {
+    font-size: 60px;
+    font-weight: 800;
+}
+
+header h2 {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+#ubicacion {
+    padding: 150px;
+    text-align: center;
+}
+
+#ubicacion h2 {
+    font-size: 45px;
+}
+
+#ubicacion p {
+    font-size: 25px;
+    margin: 40px 0px 20px 0px;
+}
+
+.speaker-section {
+    background-color: #A4452C;
+    padding: 40px;
+    color: white;
+    text-align: center;
+}
+
+.speaker-section img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 30%;
+    max-width: 400px;
+    max-height: 400px;
+    margin-right: 30px;
+}
+
+.text-speaker-section {
+    display: inline-block;
+    width: 40%;
+    vertical-align: middle;
+    text-align: left;
+    max-width: 700px;
+    margin-bottom: 90px;
+}
+
+.text-speaker-section h2 {
+    text-align: left;
+    font-size: 45px;
+}
+
+.text-speaker-section h3 {
+    font-size: 40px;
+}
+
+.text-speaker-section h4 {
+    font-size: 33px;
+    margin-top: 10px
+}
+
+.text-speaker-section h5 {
+    font-size: 20px;
+
+}
+
+.text-speaker-section p {
+    font-size: 25px;
+    margin-top: 20px
+}
+
+#event-section {
+    padding: 100px;
+    text-align: center;
+
+}
+
+#event-section h2 {
+    font-size: 45px;
+    margin-bottom: 40px;
+}
+
+#event-section article {
+    display: inline-block;
+    margin: 20px;
+}
+
+#event-section article h3 {
+    margin-top: 30px;
+    font-size: 35px;
+}
+
+footer {
+    background-color: #000F08;
+    color: white;
+    font-size: 25px;
+    padding: 100px;
+    text-align: center;
+}
+
+footer i {
+    font-size: 50px;
+    color: white;
+    margin-left: 20px;
+}
+
+footer p {
+    margin-top: 25px;
+}
+#event-page {
+    padding: 200px;
+    text-align: center;
+}
+
+#event-page .charla-texto {
+    text-align: start;
+    padding-left: 235px;
+    padding-right: 235px;
+    width: 80%; 
+    max-width: 1050px;
+    letter-spacing: 1.5px;
+    line-height: 50px;
+    font-size: 25px;
+}
+
+#event-page h2 {
+    font-size: 45px;
+    margin-bottom: 73px;
+    text-align: left;
+    padding-left: 235px;
+}   
+
+#event-page h3 {
+    font-size: 40px;
+    margin-top: 50px;
+
+}
+
+#event-page p {
+    margin-top: 50px;
+}
